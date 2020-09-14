@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>La Shoopa</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <!-- Header -->
+        <header class="header" id="header">
+          <div class="container">
+            <div class="header__inner">
+              <a href="#" class="header__logo">La Shoopa</a>
+              <nav class="nav" id="nav">
+                <a href="#" class="nav__link">Men</a>
+                <a href="#" class="nav__link">Women</a>
+                <a href="#" class="nav__link">About</a>
+              </nav>
+              <a href="#" class="shop__cart__link"
+                ><i class="fa fa-shopping-cart" aria-hidden="true"></i
+              ></a>
+              <button class="burger" id="navToggle" type="button">
+                <span class="burger__item">Menu</span>
+              </button>
+            </div>
+            <!-- /header__inner -->
+          </div>
+          <!-- /.container -->
+        </header>
+        <!-- /.header -->
+
+        <!-- Ordering -->
+        <section class="ordering">
+          <div class="container">
+            <h2 class="ordering__title">Orderring</h2>
+            <form action="/" class="ordering__form">
+              <div class="ordering__item">
+                <span class="ordering__desc">Phone number</span>
+                <input
+                  class="ordering__input"
+                  type="tel"
+                  placeholder="+38 (___) __ __"
+                />
+              </div>
+              <div class="ordering__item">
+                <span class="ordering__desc">Name</span>
+                <input type="text" class="ordering__input" />
+              </div>
+              <div class="ordering__item">
+                <span class="ordering__desc">Email</span>
+                <input type="email" class="ordering__input" />
+              </div>
+              <div class="ordering__item comment">
+                <span class="ordering__desc">Comment</span>
+                <textarea
+                  class="ordering__textarea"
+                  name="comment"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <div class="ordering__item submit">
+                <span class="ordering__desc submit"
+                  >3 items worth 2999 grn</span
+                >
+                <button class="ordering__btn">Order</button>
+              </div>
+            </form>
+            <!-- /.ordering__form -->
+          </div>
+          <!-- /.container -->
+        </section>
+        <!-- /.ordering -->
+
+        <section class="cart__contents">
+          <div class="container">
+            <h2 class="cart__title">Cart contents</h2>
+            <div class="cart__items">
+              <header class="cart__header">
+                <div>3 items</div>
+                <div>Amaunt</div>
+                <div>Costs</div>
+              </header>
+              <div class="cart__item">
+                <div class="cart__item__desc">
+                  <div class="cart__item__img">
+                    <img src="assets/img/cloth.png" alt="" />
+                  </div>
+                  <div class="cart__item__text">
+                    <h3 class="cart__item__type">
+                      Sandals <span>Tamaris</span>
+                    </h3>
+                    <h3 class="cart__item__size">Size: <span>40</span></h3>
+                  </div>
+                </div>
+                <form action="/" class="cart__item__amaunt">
+                  <span>1 pc.</span>
+                  <input type="number" value="1" min="1" />
+                  <button type="submit"><i class="fas fa-plus"></i></button>
+                </form>
+                <div class="cart__item__costs">1000 grn</div>
+              </div>
+              <div class="cart__item">
+                <div class="cart__item__desc">
+                  <div class="cart__item__img">
+                    <img src="assets/img/cloth.png" alt="" />
+                  </div>
+                  <div class="cart__item__text">
+                    <h3 class="cart__item__type">
+                      Sandals <span>Tamaris</span>
+                    </h3>
+                    <h3 class="cart__item__size">Size: <span>40</span></h3>
+                  </div>
+                </div>
+                <form action="/" class="cart__item__amaunt">
+                  <span>1 pc.</span>
+                  <input type="number" value="1" min="1" />
+                  <button type="submit"><i class="fas fa-plus"></i></button>
+                </form>
+                <div class="cart__item__costs">1000 grn</div>
+              </div>
+
+              <div class="cart__item">
+                <div class="cart__item__desc">
+                  <div class="cart__item__img">
+                    <img src="assets/img/cloth.png" alt="" />
+                  </div>
+                  <div class="cart__item__text">
+                    <h3 class="cart__item__type">
+                      Sandals <span>Tamaris</span>
+                    </h3>
+                    <h3 class="cart__item__size">Size: <span>40</span></h3>
+                  </div>
+                </div>
+                <form action="/" class="cart__item__amaunt">
+                  <span>1 pc.</span>
+                  <input type="number" value="1" min="1" />
+                  <button type="submit"><i class="fas fa-plus"></i></button>
+                </form>
+                <div class="cart__item__costs">1000 grn</div>
+              </div>
+            </div>
+            <!-- /.cart__items -->
+          </div>
+          <!-- /.container -->
+        </section>
+        <!-- /.cart__contents -->
+      </div>
+      <!-- /.Content -->
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <nav class="footer__contacts">
+            <h3 class="footer__contacts__text">Contact us:</h3>
+            <a href="#" class="footer__contacts__link" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="footer__contacts__link" target="_blank"
+              ><i class="fas fa-at"></i
+            ></a>
+            <a href="#" class="footer__contacts__link" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="footer__contacts__link" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </nav>
+          <div class="footer__copyright">
+            © 2020 lashopaa.com - All Rights Reserved
+          </div>
+        </div>
+        <!-- /.container -->
+      </footer>
+      <!-- /.footer -->
+    </div>
+
+    <!-- Javascript -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

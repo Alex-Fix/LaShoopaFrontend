@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <title>La Shoopa</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <!-- Header -->
+        <header class="header" id="header">
+          <div class="container">
+            <div class="header__inner">
+              <a href="#" class="header__logo">La Shoopa</a>
+              <nav class="nav" id="nav">
+                <a href="#" class="nav__link">Men</a>
+                <a href="#" class="nav__link">Women</a>
+                <a href="#" class="nav__link">About</a>
+              </nav>
+              <a href="#" class="shop__cart__link"
+                ><i class="fa fa-shopping-cart" aria-hidden="true"></i
+              ></a>
+              <button class="burger" id="navToggle" type="button">
+                <span class="burger__item">Menu</span>
+              </button>
+            </div>
+            <!-- /header__inner -->
+          </div>
+          <!-- /.container -->
+        </header>
+        <!-- /.header -->
+
+        <!-- Product Details -->
+        <section class="product__details">
+          <div class="container">
+            <div class="details__inner">
+              <div class="prod__item">
+                <div class="prod__slider" id="prod__slider">
+                  <div class="slick__item">
+                    <img
+                      src="assets/img/Products/1.jpeg"
+                      alt=""
+                      class="slick__img"
+                    />
+                  </div>
+                  <div class="slick__item">
+                    <img
+                      src="assets/img/Products/1.jpeg"
+                      alt=""
+                      class="slick__img"
+                    />
+                  </div>
+                  <div class="slick__item">
+                    <img
+                      src="assets/img/Products/1.jpeg"
+                      alt=""
+                      class="slick__img"
+                    />
+                  </div>
+                  <div class="slick__item">
+                    <img
+                      src="assets/img/Products/1.jpeg"
+                      alt=""
+                      class="slick__img"
+                    />
+                  </div>
+                </div>
+                <div class="prod__about">
+                  <a href="#" class="about__brand__link">G-Rom</a>
+                  <h2 class="about__name">Кардиган зеленый G-Rom</h2>
+                  <div class="about__price">1089 грн</div>
+                  <form action="/" class="about__form">
+                    <h3 class="about__form__head">Размер производителя</h3>
+
+                    <div class="form_radio_btn">
+                      <input
+                        id="radio-1"
+                        type="radio"
+                        name="radio"
+                        value="42-44"
+                        checked
+                      />
+                      <label for="radio-1">42-44</label>
+                    </div>
+
+                    <div class="form_radio_btn">
+                      <input
+                        id="radio-2"
+                        type="radio"
+                        name="radio"
+                        value="46-48"
+                      />
+                      <label for="radio-2">46-48</label>
+                    </div>
+
+                    <button type="submit" class="about__form__btn">
+                      <i class="fa fa-shopping-cart" aria-hidden="true">
+                        Добавить в корзину</i
+                      >
+                    </button>
+                  </form>
+                </div>
+                <!-- /.prod__about -->
+              </div>
+              <!-- /.prod__slider -->
+              <div class="prod__desc">
+                <div class="desc__values">
+                  <div class="desc__item">
+                    <span class="desc__item__span">Brand:</span> G-Rom
+                  </div>
+                  <div class="desc__item">
+                    <span class="desc__item__span">Country:</span> Italy
+                  </div>
+                  <div class="desc__item">
+                    <span class="desc__item__span">Сomposition:</span> 100% wool
+                  </div>
+                </div>
+                <div class="desc__text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Corporis qui optio quis sit unde officia reprehenderit, amet
+                  culpa ea quaerat architecto enim quae distinctio sunt, rem
+                  alias commodi nesciunt, praesentium neque illum? Esse alias,
+                  minima voluptates ab velit a! Ullam dolor repellendus quidem
+                  blanditiis quod quaerat sed natus impedit inventore hic
+                  pariatur nostrum enim, animi tempore error accusantium qui
+                  voluptatem perferendis excepturi accusamus veniam dolorum!
+                  Ratione beatae aperiam hic incidunt totam officia, provident
+                  ea assumenda placeat, ullam corrupti consectetur. Earum natus
+                  suscipit quaerat molestiae doloribus laborum facilis
+                  consequuntur, ipsum atque quidem magnam mollitia tempore
+                  praesentium eveniet inventore itaque perspiciatis! Cupiditate?
+                </div>
+              </div>
+              <!-- /.prod__desc -->
+            </div>
+            <!-- /.details__inner -->
+          </div>
+          <!-- /.container -->
+        </section>
+        <!-- /.product__details -->
+      </div>
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <nav class="footer__contacts">
+            <h3 class="footer__contacts__text">Contact us:</h3>
+            <a href="#" class="footer__contacts__link" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="footer__contacts__link" target="_blank"
+              ><i class="fas fa-at"></i
+            ></a>
+            <a href="#" class="footer__contacts__link" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="footer__contacts__link" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </nav>
+          <div class="footer__copyright">
+            © 2020 lashopaa.com - All Rights Reserved
+          </div>
+        </div>
+        <!-- /.container -->
+      </footer>
+      <!-- /.footer -->
+    </div>
+
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/product.js"></script>
+  </body>
+</html>
